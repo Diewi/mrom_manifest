@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="xperiamrom" fetch="https://github.com/XperiaMultiRom" />
+
+  <!-- XperiaMultiRom device tree repos -->
+  <project name="android_device_sony_castor" path="device/sony/castor" remote="xperiamrom" revision="android-7.1" />
+  <project name="android_device_sony_castor_windy" path="device/sony/castor_windy" remote="xperiamrom" revision="android-7.1" />
+  <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="xperiamrom" revision="android-7.1" />
+  <project name="android_device_sony_sirius" path="device/sony/sirius" remote="xperiamrom" revision="android-7.1" />
+
+  <!-- Common device repos -->
+  <project name="android_device_sony_sepolicy" path="device/sony/sepolicy" remote="omnirom" revision="android-7.1" />
+  <project name="android_device_sony_common" path="device/sony/common" remote="omnirom" revision="android-7.1" />
+
+  <!-- Common kernel-related repos -->
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="omnirom" revision="android-7.1" />
+  <project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-7.1" />
+  <project name="android_device_sony_common-headers" path="device/sony/common-headers" remote="omnirom" revision="android-7.1" />
+
+  <!-- Tools required by all sodp-derived sony devices -->
+  <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-7.1" />
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-7.1" />
+  <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-7.1" />
+</manifest>
