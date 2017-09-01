@@ -35,4 +35,7 @@
   <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
   <include name="remove-minimal.xml" />
 
+  <!-- But no least: Finally add XperiaMultiRom projects. -->
+  <include name="xperiamultirom.xml" />
+
 </manifest>
