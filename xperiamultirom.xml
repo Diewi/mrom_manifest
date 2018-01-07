@@ -16,7 +16,7 @@
   <!-- XperiaMultiRom device tree repos -->
   <project name="android_device_sony_castor" path="device/sony/castor" remote="xperiamrom" revision="android-7.1" />
   <project name="android_device_sony_castor_windy" path="device/sony/castor_windy" remote="xperiamrom" revision="android-7.1" />
-  <project name="android_device_sony_leo" path="device/sony/sirius" remote="xperiamrom" revision="android-7.1" />
+  <project name="android_device_sony_leo" path="device/sony/leo" remote="xperiamrom" revision="android-7.1" />
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="xperiamrom" revision="android-7.1" />
   <project name="android_device_sony_sirius" path="device/sony/sirius" remote="xperiamrom" revision="android-7.1" />
 
