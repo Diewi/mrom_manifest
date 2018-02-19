@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="diewi" fetch="https://github.com/Diewi" />
+
+  <remove-project name="Team-Win-Recovery-Project" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="diewi" revision="android-8.1-mrom-dtb" />
+  <project name="dtc" path="system/extras/dtc" remote="diewi" revision="dtb" />
+  <remove-project name="libbootimg" />
+  <project name="libbootimg" path="system/extras/libbootimg" remote="diewi" revision="dtb" />
+  <remove-project name="multirom" />
+  <project name="multirom" path="system/extras/multirom" remote="diewi" revision="dtb" />
+</manifest>
