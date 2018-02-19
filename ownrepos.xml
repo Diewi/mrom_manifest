@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="diewi" fetch="https://github.com/Diewi" />
+
+  <project name="dtc" path="system/extras/dtc" remote="diewi" revision="master" />
+  <remove-project name="libbootimg" />
+  <project name="libbootimg" path="system/extras/libbootimg" remote="diewi" revision="master" />
+  <remove-project name="multirom" />
+  <project name="multirom" path="system/extras/multirom" remote="diewi" revision="master" />
+</manifest>
