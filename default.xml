@@ -560,5 +560,8 @@
 
   <!-- MultiROM -->
   <include name="multirom.xml" />
-  
+
+  <!-- Own repositiories -->
+  <include name="ownrepos.xml" />
+
 </manifest>
