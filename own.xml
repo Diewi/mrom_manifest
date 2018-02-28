@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="diewi" fetch="https://github.com/Diewi" />
+
+  <!-- MultiROM -->
+
+  <remove-project name="Team-Win-Recovery-Project" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="diewi" revision="android-8.1-own-dtbv2" />
+  <project name="dtc" path="system/extras/dtc" remote="diewi" revision="dtb_v2" />
+  <remove-project name="libbootimg" />
+  <project name="libbootimg" path="system/extras/libbootimg" remote="diewi" revision="dtb_v2" />
+  <remove-project name="multirom" />
+  <project name="multirom" path="system/extras/multirom" remote="diewi" revision="dtb_v2" />
+
+  <!-- DEVICES -->
+  <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="diewi" revision="android-8.1" />
+  <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="diewi" revision="android-8.1" />
+  <project name="android_device_sony_z2" path="device/sony/z2" remote="diewi" revision="android-8.1" />
+  
+  <project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-8.1" />
+  <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.0" />
+  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_interfaces_legacy" path="hardware/interfaces_legacy" remote="omnirom" revision="android-8.0" />
+  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="omnirom" revision="android-8.0" />
+  <project name="android_vendor_nxp-nfc_interfaces_opensource_nfc" path="vendor/nxp-nfc/interfaces/opensource/nfc" remote="omnirom" revision="android-8.0" />
+  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-8.1" />
+  <project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.0" />
+  <project name="android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-8.1" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="omnirom" revision="android-8.0" />
+
+  <project name="proprietary_vendor_sony" path="vendor/sony" remote="dc" revision="android-8.1" />
+</manifest>
